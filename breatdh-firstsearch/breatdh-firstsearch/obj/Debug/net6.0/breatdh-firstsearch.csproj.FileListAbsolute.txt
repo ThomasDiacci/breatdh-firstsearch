@@ -1,0 +1,15 @@
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\bin\Debug\net6.0\breatdh-firstsearch.exe
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\bin\Debug\net6.0\breatdh-firstsearch.deps.json
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\bin\Debug\net6.0\breatdh-firstsearch.runtimeconfig.json
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\bin\Debug\net6.0\breatdh-firstsearch.dll
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\bin\Debug\net6.0\breatdh-firstsearch.pdb
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.csproj.AssemblyReference.cache
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.AssemblyInfoInputs.cache
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.AssemblyInfo.cs
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.csproj.CoreCompileInputs.cache
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.dll
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\refint\breatdh-firstsearch.dll
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.pdb
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\breatdh-firstsearch.genruntimeconfig.cache
+C:\Users\t.diacci\Desktop\GitHub\breatdh-firstsearch\breatdh-firstsearch\breatdh-firstsearch\obj\Debug\net6.0\ref\breatdh-firstsearch.dll
