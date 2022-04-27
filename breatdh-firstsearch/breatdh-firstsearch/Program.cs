@@ -7,9 +7,10 @@ list.Add("Alice");
 list.Add("Bob");
 list.Add("Claire");
 
+Console.WriteLine("First Method:");
 for (int i = 0; i < list.Count; i++)
 {
-    if (PersonIsSeller(list[i]))
+    if (PersonHasKey(list[i]))
     {
         Console.WriteLine($"Seller is: {list[i]}");
         break;
@@ -45,7 +46,11 @@ graph.Add("jonny", new string[0]);
 //    Console.WriteLine(arr2[i]);
 //}
 
-SearchQueue(graph["you"]);
+Console.WriteLine("\nSecond Method:");
+if (!SearchQueue(graph["you"]))//new string[] { "alice", "bob", "claire" }
+{//allora ho trovato chi può vendere il mango
+    Console.WriteLine($"Nobody has the key");
+}
 
 
 bool SearchQueue(string[] dataToSearch)
@@ -102,17 +107,17 @@ bool SearchQueue(string[] dataToSearch)
     //}
 
     //ciclo finché ho elementi nell'array
-    while (dataToSearch != null || dataToSearch.Length > 1)
+    while (dataToSearch != null && dataToSearch.Length > 0)
     {
         //prelevo il primo elemento
         var person = dataToSearch[0];
         //rimuovo l'elemento selezionato
         dataToSearch = dataToSearch.Where(x => !x.Equals(person)).ToArray();
 
-        //controllo se è un venditore
-        if (PersonIsSeller(person))
+        //controllo se ha la chiave
+        if (PersonHasKey(person))
         {//allora ho trovato chi può vendere il mango
-            Console.WriteLine($"Seller is: {person}");
+            Console.WriteLine($"{person.ToUpper()} has the key!");
 
             return true;
         }
@@ -122,11 +127,13 @@ bool SearchQueue(string[] dataToSearch)
         }
     }
 
-    //se sono arrivato fino a qua allora nessuno è un venditore
+    //se sono arrivato fino a qua allora nessuno ha la chiave
     return false;
 }
 
-//ipotizziamo che il venditore sia identificato con la lettera finale "m"
-bool PersonIsSeller(string name){
-    return name.ToUpper().Last() == 'M';
+
+
+//ipotizziamo che il possessore della chiave sia identificato con la lettera finale "m"
+bool PersonHasKey(string name){
+    return name.ToUpper().Last().Equals('M');
 }
